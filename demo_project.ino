@@ -8,12 +8,12 @@ int Relay = 6;
 DS3231 rtc(SDA, SCL);
 Time t;
 
- int giomo = 20;
+ int giomo = 13;
  int phutmo = 00;
  int giaymo[] = {00, 10, 20, 30, 40, 50};
  
- int giotat = 20;
- int phuttat = 02;
+ int giotat = 13;
+ int phuttat = 10;
  int giaytat[] = {05, 15, 25, 35, 45, 55};
 
 
@@ -34,7 +34,7 @@ void setup() {
 
   rtc.begin();
   rtc.setDOW(TUESDAY);     // Cài đặt thứ trong tuần
-  rtc.setTime(19, 59, 55);     // Cài đặt giờ, phút, giây (24)
+  rtc.setTime(12, 59, 55);     // Cài đặt giờ, phút, giây (24)
   rtc.setDate(6, 5, 2025);   // Ngày, tháng, năm
 
   pinMode(Relay, OUTPUT);
