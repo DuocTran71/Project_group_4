@@ -172,13 +172,13 @@ GenerateClassCluster=0
 DocumentUniqueId=XQIDULBY
 
 [Document8]
-DocumentPath=C:\Users\USER\Documents\Zalo Received Files\Schematic4.SchDoc
+DocumentPath=C:\Users\USER\Documents\Zalo Received Files\Schematic04.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -186,7 +186,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=PYEXBGAY
+DocumentUniqueId=XYCYHDMN
 
 [Parameter1]
 Name=CAGE_CODE
